@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Calculator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/1.css" />
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="main.js"></script>
+</head>
+<!-- author:Gurukiran D-->
+<body>
+    <div class="background">
+    <div class="container">
+        <div class="col-xs-12 col-md-5 col-md-offset-4 calculator text-center">
+           
+            <div class="row">
+                <div>
+                    <form name="calc">
+                        <input type="text" class="inputs text-right" id="display" disabled>
+                       <input type="text" placeholder="=" class="result text-right" id="resu" disabled>
+                    </form>
+                </div>
+                <div class="col-xs-3  cal-button">
+                    <button class="color-button" value="clear" onclick="clearScreen()">AC</button>
+                </div>
+                <div class="col-xs-3  cal-button">
+                    <button class="color-button" value="+/-" onclick="input('+/-')">+/-</button>
+                </div>
+                <div class="col-xs-3  cal-button">
+                    <button class="color-button" value="%" onclick="input('%')">%</button>
+                </div>
+                <div class="col-xs-3 cal-button">
+                    <button class="color-button" value="*" onclick="input('*')">*</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-3 cal-button">
+                    <button value="7" onclick="input('7')">7</button>
+                </div>
+                <div class="col-xs-3 cal-button">
+                    <button value="8" onclick="input('8')">8</button>
+                </div>
+                <div class="col-xs-3 cal-button">
+                    <button value="9" onclick="input('9')">9</button>
+                </div>
+                <div class="col-xs-3 cal-button">
+                    <button class="color-button" value="/" onclick="input('/')">/</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-3 cal-button">
+                    <button value="4" onclick="input('4')">4</button>
+                </div>
+                <div class="col-xs-3 cal-button">
+                    <button value="5" onclick="input('5')">5</button>
+                </div>
+                <div class="col-xs-3 cal-button">
+                    <button value="6" onclick="input('6')">6</button>
+                </div>
+                <div class="col-xs-3 cal-button">
+                    <button class="color-button" value="-" onclick="input('-')">-</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-3 cal-button">
+                    <button value="1" onclick="input('1')">1</button>
+                </div>
+                <div class="col-xs-3 cal-button">
+                    <button value="2" onclick="input('2')">2</button>
+                </div>
+                <div class="col-xs-3 cal-button">
+                    <button value="3" onclick="input('3')">3</button>
+                </div>
+                <div class="col-xs-3 cal-button">
+                    <button class="color-button" value="+" onclick="input('+')">+</button>
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col-xs-6 cal-button ">
+                    <button class="zero-radius" value="0" onclick="input(0)">0</button>
+                </div>
+                <div class="col-xs-3 cal-button">
+                    <button value="." onclick="input('.')">.</button>
+                </div>
+                <div class="col-xs-3 cal-button">
+                    <!-- calls result function onclick -->
+                    <button class="color-button-red" value="=" onclick="result()">=</button>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+</body>
+
+</html>
