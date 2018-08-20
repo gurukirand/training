@@ -1,0 +1,141 @@
+body
+{
+	background-color: #696966;
+}
+
+.first
+{
+	height: 5px;
+	width: 100%;
+	background-color: #36b55d ;
+}
+
+.second
+{
+	
+	line-height: 5px;
+	color: white;
+	top:20px;
+	
+}
+
+.hd
+{
+	color: white; 
+	font-size: 40px;
+	font-weight: 400;
+	top:40px;
+}
+
+.menu
+{   position: relative;
+	margin-left: 200px;
+	border:10px solid ;
+	color: white;
+	}
+
+
+ul
+{ 
+	margin-top: 50px;
+    height: 10px;
+	margin-right: 100px;
+	left: 300px;
+	float: right;
+} 
+
+li
+{
+    color:white;
+    display: inline-block;
+    list-style-type: none;
+}
+
+.div1
+{
+	float: left;
+	margin-left: 30px;
+    margin-top: 30px;
+    color: white;
+}
+
+.div2
+{
+	margin-right: 0px;
+}
+
+a
+{
+	color: white;
+	text-decoration: none;
+	width:50px;
+    height: 10px;
+    border-radius: 10px;
+    border:0px solid gray;
+    padding: 15px;
+}
+
+a:hover
+{
+	background-color: #36b55d ;
+}
+
+.para
+{
+	position: absolute;
+    top: 400px;
+    left: 200px;
+	color: white;
+	line-height: 20px;
+    color: #b2b4b7;
+    width: 370px;
+}
+
+.para1
+{
+	position: relative;
+    top: 180px;
+    left: 200px;
+	color: white;
+	font-size: 45px;
+    font-weight: 500;
+    width: 300px;
+}	
+.image
+{
+    position: relative;
+    left: 700px;
+	border:30px solid gray;
+	background-image: url('per2.jpg');
+	width: 300px;
+	height: 300px;
+	border-radius:50%;
+	background-size: contain;
+}
+
+
+.button {
+    position: absolute;
+    top:500px;
+    left: 200px;
+	line-height: 10px;
+    background-color: #36b55d ;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 10px;
+    font-size: 16px;
+    margin-left: 0px;
+}
+.img
+{
+    position: relative;
+    left: 700px;
+	border:30px solid gray;
+	background-image: url('per2.jpg');
+	width: 300px;
+	height: 300px;
+	border-radius:50%;
+	background-size: contain;
+}
