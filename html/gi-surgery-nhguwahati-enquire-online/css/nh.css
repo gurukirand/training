@@ -1,0 +1,460 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400');
+@font-face {
+	font-family: 'latobold';
+	src: url("../fonts/lato-bold-webfont.woff2") format("woff2"), url("../assets/fonts/lato-bold-webfont.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+  }
+  @font-face {
+	font-family: 'latolight';
+	src: url("../fonts/lato-light-webfont.woff2") format("woff2"), url("../assets/fonts/lato-light-webfont.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+  }
+  @font-face {
+	font-family: 'latoregular';
+	src: url("../fonts/lato-regular-webfont.woff2") format("woff2"), url("../assets/fonts/lato-regular-webfont.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+  }
+
+body{
+    font-family: 'latoregular'!important;
+    background-color: #f2f3f4;
+}
+/* hedaer-section */
+header{
+    background-color: white;    
+}
+.logo
+{
+    width: 100%;
+    padding: 4px 0;
+}
+.hero
+{
+    background-image:url("gastro_banner.jpg");
+    width:100%;
+    min-height:330px;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+}
+.hero-heading
+{
+    position: absolute;
+    margin-left: 10px;
+    background-color: #284695;
+    color: white;
+    max-width: 450px;
+    bottom: 80px;
+}
+.hero-heading h1{
+    padding: 15px;
+    font-size:36px;
+    margin: 0;
+    font-family: Roboto Condensed;
+}
+.hero-text p
+{
+    max-width: 730px;
+    display: block;
+    margin-bottom: 0;
+    margin-left: 70px;
+    font-size: 16px;
+}
+.hero-text
+{
+    background: #0072bc;
+    color: white;
+    padding: 13px 20px 13px 0;
+}
+/* form section */
+.form {
+    position: fixed;
+    right: 0px;
+    top: 0;
+    width: 310px;
+    background: #10304b ;
+    color: #fff;
+    padding: 60px 20px;
+    text-align: center;
+}
+.enquire-header {
+    text-align: center;
+    font-size: 20px;
+    border-bottom: 3px solid #fff;
+    padding-bottom: 15px;
+}
+ .form input {
+    border: 1px solid #5f5f5f;
+    height: 35px;
+    width: 100%;
+    color: white;
+    font-size: 14px;
+    padding-left: 10px;
+    background: transparent;
+    margin-top: 25px; 
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+}
+.form textarea {
+    width: 100%;
+    height: 100px;
+    border: 1px solid #586f81;
+    color: white;
+    font-size: 14px;
+    margin-top: 17px;
+    padding-left: 10px;
+    background: transparent;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+}
+
+.form button {
+    margin-top: 15px;
+    color: #000;
+    background: white;
+    border-radius: 5px;
+    font-size: 16px;
+    border: none;
+    padding: 7px 25px;
+}
+/* choose-nh section */
+.choose-nh
+{
+    margin: 0;
+    line-height: 1.3;
+
+}
+.choose-nh-nh h2
+{
+    color:#284694;
+    font-family: 'latobold';
+}
+.gatro h3
+{
+    font-size: 24px;
+    padding: 10px 0;
+}
+.gatro p{ 
+    text-align: center;
+}
+.gatro
+{
+    background: #ebe9fc;
+    float: left;
+    padding: 60px 20px;
+}
+/* facilities section */
+.facilities img
+{
+    float: left;
+    padding-right: 10px;
+    padding-top: 10px;
+    margin-bottom: 40px;
+}
+.facilities
+{
+    padding: 20px;
+    font-size: 13px;
+    background: #e0dfef;
+}
+.facilities p{
+    margin: 0;
+    text-align: left;
+}
+.facilities h3
+{
+    margin-top: 0;
+}
+/* commitment to qulaity section */
+.quality
+{
+    background: #c9c6d9;
+    padding: 20px;
+    font-size: 13px;
+}
+.quality h3{
+    margin-top: 0;
+}
+.quality p
+{
+text-align: left;
+}
+
+.quality img
+{
+    float: left;
+    padding-right: 10px;
+    padding-top: 10px;
+    margin-bottom: 40px;
+}
+/* key procedures */
+.procedures li
+{
+    background: #ebe9fc;
+    padding: 10px;
+    margin: 0 10px 10px 0;
+    font-size: 15px;
+    display: block;
+    font-size: 16px;
+    font-family: 'latobold';
+}
+
+.procedures ul
+{
+    padding: 0;
+    padding-bottom: 10px;
+}
+.procedure-left
+{
+    padding-right: 5px;
+   
+}
+.procedure-right
+{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.procedures
+{
+    background: white;
+    
+}
+.procedure-sec{
+    margin: 0;
+    margin-top: 20px;
+}
+.procedures h2{
+    color: #284694;
+}
+/* services and facilities */
+.services-container
+{
+    margin:20px 0px;
+}
+.services{
+    background-color: #383d45;
+    padding: 10px 20px;
+}
+.services h2{
+    color: white;
+    font-family: 'latobold';
+}
+.services-sub
+{
+    padding: 10px;
+    font-size: 16px;
+    font-family: 'latobold';
+    background-color: white;
+    border-right: 5px solid #383d45;
+    border-left: 5px solid #383d45;
+    min-height: 58px;
+    max-height: 58px;
+    line-height: 1.3;
+    text-align: center;
+}
+
+.services-row2
+{
+
+  padding: 10px ;
+}
+.service-pad
+{
+    margin-left: 140px;
+}
+/* about nh */
+.about-pad
+{
+    margin: 20px 0;
+}
+.about
+{
+    background-color: #284695;
+    padding: 15px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    display: block;
+}
+.about-left
+{
+    padding: 10px 30px;
+    border-right: 1px solid #697eb5;  
+}
+.about-right
+{
+    color: #fff;
+}
+.about-right h2
+{
+    margin: 0;
+    float: left;
+    width: 100%;
+    font-size: 28px;
+    padding: 5px 0 15px;  
+    font-family: 'latobold';  
+}
+.about-right p{
+    float: left
+}
+/* footer section */
+footer
+{
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    font-size: 12px;    
+}
+.footer-content
+{
+    margin-left: 5%;
+}
+/* mobile enquire button */
+.mobile-enquire
+{
+    display: none;
+}
+p{
+    font-size: 16px;
+}
+/* tab and mobile view */
+@media screen and (max-width:991px)
+{
+    p
+    {
+        font-size: 14px;
+    }
+    
+.form {
+    position: static;
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+    min-height: 0;
+    padding: 35px 25px 35px;
+    border: 1px solid #000;
+}
+.facilities p
+
+{
+    text-align: center;
+}
+.quality p
+
+{
+    text-align: center;
+}
+.choose-nh h2
+{
+color: #284694;
+
+}
+.facilities img
+{
+float: none;
+}
+.quality img
+{
+    float: none;
+}
+.service-pad {
+    margin:0;
+}
+.services-row2 {
+    padding: 0px;
+}
+.services-sub
+{
+   margin-bottom: 10px;
+   font-size: 14px;
+}
+.key-procedure
+{
+    margin-left: 0;
+}
+.procedure-left {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.hero-heading h1{
+    padding: 0  px;
+    font-size: 26px;
+}
+.hero-heading
+{
+    position: absolute;
+    margin-left: 0px;
+    background-color: #284695;
+    color: white;
+    max-width: 340px;
+    bottom: 80px;
+}
+.hero-text
+{
+    background: #0072bc;
+    color: white;
+    padding: 20px;
+    font-size: 12px;
+}
+.hero-text p {
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+.logo{
+    text-align:center;
+}
+.procedures ul
+{
+    margin: 0;
+    padding-bottom:0;
+}
+.procedures li
+{
+    font-size: 14px;
+}
+.form textarea {
+    height: 120px;
+    border: 1px solid #586f81;
+}
+.about-left
+{
+    padding: 10px 30px;
+    border-right: none;  
+}
+}
+@media screen and (max-width:1199px)
+{
+    .form {
+        position: static;
+        float: left;
+        width: 100%;
+        margin-top: 20px;
+        min-height: 0;
+        padding: 35px 25px 35px;
+        border: 1px solid #000;
+    }  
+    .mobile-enquire {
+        display: block;
+        width: 100%;
+        text-align: center;
+        background: #000;
+        }
+    .enquire {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            color: #000;
+            background: #00a1d6;
+            font-size: 16px;
+            border: 0;
+            padding: 5px 20px;
+            cursor: pointer;
+            display: inline-block;
+        }
+        .enquire a {
+            text-decoration: none;
+            color: #000;
+        }
+}
