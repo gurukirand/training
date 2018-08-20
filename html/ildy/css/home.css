@@ -1,0 +1,857 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+header
+{
+    background-image: url("1.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    background-size: cover;
+}
+
+.navbar {
+   background-color: transparent;
+   background: transparent;
+   border-color: transparent;
+}
+header .logo
+{
+    padding: 20px;
+    padding-left: 50px;
+}
+.navbar-default .navbar-nav li
+{
+    padding:40px 10px;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+}
+.navbar-default .navbar-nav li a {
+    color:white;
+}
+
+nav ul
+{
+    margin-top: 0px;
+    margin-right: 0px;
+}
+a 
+{
+ color: white;
+}
+.navbar-default .navbar-nav li a:hover
+{
+    color: yellow;
+}
+.hero h1{
+    font-weight:700;
+    font-size: 80px;
+    color: white;
+    margin-top: 250px;
+    margin-bottom: 27px;
+    font-family: "Poppins";
+}
+.hero p
+{
+    line-height: 26px;
+    margin-bottom: 60px;
+    font-size: 16px;
+    color: #fff;
+    font-family: "Lato";
+    font-weight: 400;
+}
+
+.span-dot
+{
+    color: yellow;
+}
+.hero{
+    padding-top: 00px;
+    padding-bottom: 200px;
+}
+.hero .hero-section {
+    color: white;
+}
+
+.hero .learmore
+{
+    border: 3px solid white;
+    border-radius: 2px;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 17px 75px;
+    background: rgba(0, 0, 0, 0.2);
+    text-decoration:none;
+    color: white;    
+}
+.hero .learmore:hover
+{
+ color: white;
+ text-decoration:none;
+ background: rgba(255,255,255,0.1);
+}
+
+.hero .download
+{
+    border: 0px solid white;
+    border-radius: 2px;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 20px 75px;
+    background:yellow;
+    text-decoration:none;
+    margin-right: 50%;
+}
+.hero .download:hover
+{
+ color: white;
+ text-decoration:none;
+ background-color: purple;
+ transition: all 0.5s ease;
+}
+
+
+.hero .hero-buttons
+{
+    margin-top: -30px;
+    display: inline-block;
+}
+.latestnews
+{
+    position: relative;
+    background-color: #222f36;
+    padding: 60px 0;
+    padding-bottom: 0px;
+}
+.latestnews h3{
+    color: white;
+    font-size: 35px;
+    line-height: 38px;
+    font-weight: 700;
+}
+.latestnews p{
+    color: #8c9597;
+    padding-bottom: 40px;
+}
+.learnmore
+{
+    padding: 20px 40px;
+}
+.fake-div {
+    width:100%;
+    height: 1280px;
+    position:relative;
+  }
+.seeblog
+{
+    padding: 13px 20px;
+    background-color: yellow;
+    color: white;
+    font-size: 20px;  
+    text-align: center;
+    border-radius: 3px;
+    
+    
+}
+.latestnews a:hover
+{
+    text-decoration: none;
+    color: white;
+    background-color: purple;  
+    transition: all 0.5s ease;
+}
+.blogsec
+{
+    padding-bottom: 80px;
+}
+
+.blogsec a h5{
+    font-size: 23px;
+    font-weight: 700;
+    color: #5e5e5e;
+    line-height: 1.5;
+    padding: 20px 30px;
+    text-align: left;
+    text-decoration: none;
+}
+.blogsec a h5:hover
+{
+color: #f1d204;
+}
+.blogpost
+{
+    background-color: white;
+    padding-bottom: 30px;
+}
+.blogpost p
+    {
+        line-height: 26px;
+        color: #8c9597;
+        font-size: 16px;
+        padding: 30px 30px ;
+        text-align: left;
+    }
+.blogpost .readmore
+{
+    color:yellow;
+    font-size: 16px;
+    margin-left: 40px;
+}
+.blogpost .readmore:hover
+{
+    background-color: transparent;
+    color: purple;
+}
+
+.blogblock
+{
+    padding-top: 80px;
+}
+.number
+{
+    font-weight: 800;
+    font-size: 70px;
+    color: white;
+}
+
+.count
+{
+    opacity: .8;
+    padding: 50px 0;
+    background-image: url('../images/front-page-counter.jpg');
+    background-attachment:fixed;
+    
+}
+
+.small
+{
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+}
+
+.theme a{
+    color: #8c9597;
+}
+.marginset
+{
+    margin-left: 20px;
+}
+/* .backimg
+{
+   
+} */
+
+.about
+{
+    padding-bottom: 80px;
+
+}
+.about-heading {
+    color: #545454;
+    font-weight: 700;
+    font-size: 38px;
+    margin-top:30px;
+    padding-top: 50px;
+}
+.about-text {
+    line-height: 26px;
+    font-size: 16px;
+    padding-top: 50px;
+    padding-left: 110px;
+    padding-right: 109px;
+    color:#8c9597;
+}
+.abouttop
+{
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+.about-color {
+    background-color: #f1d204;
+    margin: 0;
+}
+.about-color1 {
+    background-color: #6a4d8a;
+}
+.about-space {
+    margin-top: 60px;
+}
+.progress
+{
+    margin: 0;
+
+}
+.progress-bar {
+    position: relative;
+    
+}
+.text .glyp1 {
+    color:rgb(241, 139, 109);
+}
+.glyp2 {
+    color:#f1d204;
+}
+.text .glyp3 {
+    color:#6a4d8a;
+}
+.icon {
+    position: absolute;
+    top:5px;
+}
+.bg-info {
+    background-color: rgb(241, 139, 109);
+}
+.project {
+    background-image: url(https://cdn.colorlib.com/illdy/wp-content/themes/illdy/layout/images/front-page/pattern.png);
+    text-align: center;
+}
+.project-head {
+    font-size: 35px;
+    line-height: 38px;
+    font-weight: 700;
+    margin-bottom: 3px;
+    margin-top: 68px;
+}
+.project .project-info {
+    margin-bottom: 0;
+    line-height: 26px;
+    font-size: 16px;
+    color: #8c9597;
+    font-family: "Lato";
+    font-weight: 400;
+}
+.project .project-img {
+    margin-top: 65px;
+}
+.project .project-img img:hover{
+    opacity: 0.6;
+    transition: all 1s ease;
+}
+.project .img-padding {
+ padding: 0px 0px;
+}
+.project .project-img .project-img-size {
+    width:100%;
+    height: 100%;
+}
+.testimonial {
+    background-image: url('images/testiomnials-background.jpg');
+    padding: px 0 0 0;
+    height: 660px;
+
+}
+.testimonial h3 {
+    color:#fff;
+    font-size: 35px;
+    line-height: 38px;
+    font-weight: 700;
+    padding: 50px 0px 30px 0;
+}
+.test-backimg {
+    width: 100%;
+    height: 600px;
+    margin-bottom: 30px;
+}
+.testimonial p{
+    padding: 20px 0 ;
+}
+.testimonial .carousel-inner .carousel-img {
+    width: 127px;
+    height: 127px;
+    border-radius: 50%;
+    margin-bottom: 50px;
+}
+.testimonial h6{
+    color:#fff;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    padding: 50px 0
+}
+.testimonial .carousel-inner .position {
+    color:white;
+}
+.testimonial .carousel-inner p {
+   color: white;
+   max-width: 950px;
+   margin-left: 100px;
+   padding: 20px;
+   font-size: 16px;
+   font-family: "Lato";
+   font-weight: 400;
+   background-color: #6a4d8a;
+}
+.carousel-indicators {
+    bottom: -30px;
+  }
+
+.services {
+    padding: 30px;
+}
+.services .service-head {
+margin-bottom: 40px;
+}
+.services .main-head h3 {
+    font-size: 35px;
+    line-height: 38px;
+    font-weight: 700;
+    color:#545454;
+}
+.services .sub-head {
+    margin-bottom: 0;
+    line-height: 26px;
+    font-size: 16px;
+    color: #8c9597;
+    font-weight: 400;
+}
+.services .icon-pencil {
+    font-size: 35px;
+    color:rgb(241, 139, 109);
+}
+.services .description {
+    font-size: 23px;
+    font-weight: 700;
+    color:rgb(241, 139, 109);
+}
+.services .icon-info {
+    line-height: 26px;
+    color: #8c9597;
+    font-size: 16px;
+    font-weight: 400;
+    width: 100%;
+    text-align: center;
+    margin-top: 25px;
+}
+.services .icon-code {
+    font-size: 35px;
+    color:#f1d204;
+}
+.services .description1 {
+    font-size: 23px;
+    font-weight: 700;
+    color:#f1d204;
+}
+.services .icon-search {
+    font-size: 35px;
+    color:#6a4d8a;
+}
+.services .description2 {
+    font-size: 23px;
+    font-weight: 700;
+    color:#6a4d8a;
+
+}
+.services .space {
+    margin-top: 45px;
+}
+
+.team {
+    padding-bottom: 100px;
+    background-image: url(https://cdn.colorlib.com/illdy/wp-content/themes/illdy/layout/images/front-page/pattern.png);
+}
+.team .team-head h3 {
+    font-size: 35px;
+    line-height: 38px;
+    font-weight: 700;
+    color: #545454;
+}
+.team .sub-head {
+    font-size: 16px;
+    color: #8c9597;
+    font-weight: 400;
+}
+.team .row .media .media-img {
+    width:127px;
+    height: 127px;
+    border-radius: 50%;
+}
+.team .row .media .media-top {
+    color:#5e5e5e;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.team .row .media .media-body .media-p {
+    color: rgb(241, 139, 109);
+}
+.team .row .media .media-body .p {
+    color:#8c9597;
+    margin-top: 20px;
+    
+}
+
+ .a {
+     width: 100px;
+     height: 100px;
+    border-radius: 50%;
+    border:1px solid rgb(241, 139, 109);
+}
+
+
+.team-color{
+    color:rgb(241, 139, 109);
+    margin-bottom: 10px;
+}
+.media-p1 {
+    color:#f1d204; 
+}
+.team-color1{
+    color:#f1d204;
+}
+.media-p2 {
+    color:#6a4d8a; 
+}
+.team-color2{
+    color:#6a4d8a;
+}
+.team .team-row {
+    margin-top: 60px;
+}
+.team .team-row .img-gap{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.contact-us {
+    padding-bottom: 70px;
+    padding-top: 30px;
+}
+.contact-us .contact-head h3 {
+    font-size: 35px;
+    line-height: 38px;
+    font-weight: 700;
+    color: #545454;
+}
+.contact-us .row .address {
+    float:left;
+    font-weight: 400;
+    font-size: 16px;
+    color: #f1d204;
+    padding: 0 20px 0 0;
+    border-right: 1px solid #e1e1e1;
+    height: 50px;
+}
+.contact-us .row .address1 {
+    float:left;
+    font-weight: 400;
+    font-size: 16px;
+    color: #f1d204;
+    padding: 0 20px 0 0;
+    border-right: 1px solid #e1e1e1;
+    height: 50px;
+}
+
+.contact-us .row .add-info {
+    float:left;
+    padding-left: 20px;
+    line-height: 1.6;
+    font-size: 16px;
+    color: #8c9597;
+
+}
+.loogo {
+    float: right;
+    padding: 5px;
+    color: #8c9597;
+
+}
+.contact-us .contact-row {
+    margin-top: 40px;
+}
+.testimonial-margin
+{
+   padding: 0;
+}
+.teamlogo ul {
+    padding-left: 0px;  
+}
+.teamlogo ul li {
+    display: inline-block;
+    /* float: left; */
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1px solid;
+    text-align: center;
+    padding: 0px;
+    padding-top: 2px;
+    margin-right: 10px;
+}
+.logo3 {
+    float:left;
+}
+
+@media screen and (max-width:1204px)
+{
+    .hero .learmore
+{
+    border: 2px solid white;
+    border-radius: 2px;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 15px 0px;
+    background: rgba(0, 0, 0, 0.2);
+    text-decoration:none;
+    color: white;
+    display: block;
+    
+  
+}
+.media-body
+{
+    display: block;
+    width: 200px;
+}   
+.navbar ul
+{
+padding-top: 20px;
+}
+.navbar-default .navbar-nav li
+{
+    padding:30px 0px;
+}
+.hero
+{
+    height: 850px;
+}
+.hero h1
+{
+    margin-top: 200px;
+}
+.hero .download
+{
+    border: 0px solid white;
+    border-radius: 2px;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 15px 0px;
+    background:yellow;
+    text-decoration:none;
+    display: block;
+    
+}
+header
+{
+ background-attachment: scroll;
+ width: 100%;
+ }
+ .hero .learmore
+{
+    border: 2px solid white;
+    border-radius: 2px;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 20px 30px;
+    background: rgba(0, 0, 0, 0.2);
+    text-decoration:none;
+    color: white;
+    margin: 30px auto;
+    display: block;
+    white-space: nowrap;
+  
+}
+.hero .download
+{
+    border: 0px solid white;
+    border-radius: 2px;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 20px;
+    background:yellow;
+    text-decoration:none;
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.team .row .media .media-img {
+    width:127px;
+    height: 127px;
+    border-radius: 50%;
+    text-align: center;
+}
+}
+
+@media screen and (max-width: 767px)
+{
+    body
+    {
+        width: 100%;
+        padding: 0;
+    }
+
+    header
+    {
+     background-attachment: scroll;
+     width: 100%;
+     }
+.testimonial h3 {
+    color:#fff;
+    font-size: 35px;
+    line-height: 30px;
+    font-weight: 700;
+    padding: 30px 0px 10px 0;
+}
+.testimonial .carousel-inner p {
+    color: white;
+    max-width: 950px;
+    margin-left:00px;
+    padding: 20px;
+    font-size: 16px;
+    font-family: "Lato";
+    font-weight: 400;
+    background-color: #6a4d8a;
+ }
+ .navbar-brand
+ {
+     padding: 0px;
+ }
+ header .logo{
+     padding: 10px;
+     margin-top: 0px;
+
+ }
+.navbar .navbar-brand
+{
+    height: auto;
+    padding: 0;
+}
+.navbar .navbar-collapse
+{
+    border: none;
+    box-shadow: none;
+    padding-bottom: 20px;
+}
+.navbar
+{
+    margin-bottom: 0 auto;
+}
+  .navbar-default .navbar-toggle .icon-bar {
+    background-color:white; 
+}
+.navbar-toggle
+{
+    border: none;
+    padding: 20px;
+}
+.hero  h1 {
+    line-height: 54px;
+    font-size: 40px;
+    margin-top: 40px;
+
+}
+.hero p {
+    line-height: 26px;
+    margin-bottom: 60px;
+    font-size: 16px;
+    color: #fff;
+    font-family: "Lato";
+    font-weight: 400;
+}
+.hero .learmore
+{
+    border: 2px solid white;
+    border-radius: 2px;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 15px 0px;
+    background: rgba(0, 0, 0, 0.2);
+    text-decoration:none;
+    color: white;
+    display: block;
+    margin: 0 auto;
+  
+}
+.hero .download
+{
+    border: 0px solid white;
+    border-radius: 2px;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 15px 0px;
+    background:yellow;
+    text-decoration:none;
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.navbar-default .navbar-nav li
+{
+    text-align: center;
+    padding:10px;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+    background-color: white;
+   border-top: 0.5px solid #8c9597;
+   color: black;
+}
+.navbar-default .navbar-nav li a {
+    color: black;
+    font-weight: 400;
+}
+.navbar .navbar header
+{
+    padding-bottom: 20px;
+}
+header
+{
+    width: 100%;
+
+}
+.hero .hero-buttons
+{
+    margin-top: -30px;
+}
+.about-heading {
+    color: #545454;
+    font-weight: 800;
+    font-size: 35px;
+    margin-top: 30px;
+    /* changed */
+}
+.about-text {
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 40px;
+    padding-left: 5px;
+    padding-right: 5px;
+    /* changed */
+}
+.abouttop
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.about-space {
+    /* changed */
+    margin-top: 40px;
+}
+.about .fa {
+    /* changed */
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.span
+{
+    display: inline-block;
+    widows: 100%;
+    text-align: left;
+    padding-top: 25px;
+
+}
+.loogo
+{
+    float:left;
+    padding: 30px;
+}
+.stage
+{
+    padding: 20px;
+}
+.contact-us .row .address1
+{
+    padding-left: 70px;
+    padding-right: 20px;    
+}
+}

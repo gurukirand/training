@@ -1,0 +1,242 @@
+header
+{
+    background-image: url("1.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    background-size: cover;
+}
+
+.navbar {
+   background-color: transparent;
+   background: transparent;
+   border-color: transparent;
+}
+header .logo
+{
+    padding: 20px;
+    padding-left: 50px;
+}
+.navbar-default .navbar-nav li
+{
+    padding:40px 10px;
+    font-size: 16px;
+    font-weight: 550;
+}
+.navbar-default .navbar-nav li a {
+    color:white;
+}
+
+nav ul
+{
+    margin-top: 20px;
+}
+a 
+{
+ color: white;
+}
+.navbar-default .navbar-nav li a:hover
+{
+    color: yellow;
+}
+.hero h1{
+    font-weight:700;
+    font-size: 80px;
+    color: white;
+}
+.span-dot
+{
+    color: yellow;
+}
+.hero{
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.hero .hero-section {
+    color: white;
+}
+
+.hero .learmore
+{
+    border: 3px solid white;
+    border-radius: 2px;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 20px 70px;
+    background: rgba(0, 0, 0, 0.2);
+    margin-right: 20px;
+    text-decoration:none;
+    color: white;
+}
+.hero .learmore:hover
+{
+ color: white;
+ text-decoration:none;
+}
+
+.hero .download
+{
+    border: 0px solid white;
+    border-radius: 2px;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 23px 70px;
+    background:yellow;
+    margin-left: 20px;
+    text-decoration:none;
+}
+.hero .download:hover
+{
+ color: white;
+ text-decoration:none;
+ background-color: purple;
+}
+
+
+.hero .hero-buttons
+{
+    padding: 70px 0px 70px 0px;
+}
+.latestnews
+{
+    background-color: #222f36;
+    padding: 60px 0;
+    padding-bottom: 0px;
+}
+.latestnews h3{
+    color: white;
+    font-size: 35px;
+    line-height: 38px;
+    font-weight: 700;
+}
+.latestnews p{
+    color: #8c9597;
+    padding-bottom: 40px;
+}
+.learnmore
+{
+    padding: 20px 40px;
+}
+.seeblog
+{
+    padding: 10px 20px;
+    background-color: yellow;
+    color: white;
+    font-size: 20px;  
+    text-align: center;
+    
+}
+.latestnews a:hover
+{
+    text-decoration: none;
+    color: white;
+    background-color: purple;  
+}
+.blogsec
+{
+    padding-bottom: 80px;
+}
+
+.blogsec a h5{
+    font-size: 23px;
+    font-weight: 700;
+    color: #5e5e5e;
+    line-height: 1.5;
+    padding: 20px 30px;
+    text-align: left;
+    text-decoration: none;
+}
+.blogpost
+{
+    background-color: white;
+    padding-bottom: 30px;
+}
+.blogpost p
+    {
+        line-height: 26px;
+        color: #8c9597;
+        font-size: 16px;
+        padding: 30px 30px ;
+        text-align: left;
+    }
+.blogpost .readmore
+{
+    color:yellow;
+    font-size: 16px;
+    margin-left: 40px;
+}
+.blogpost .readmore:hover
+{
+    background-color: transparent;
+    color: purple;
+}
+.blogblock
+{
+    padding-top: 80px;
+}
+.number
+{
+    font-weight: 700;
+    font-size: 65px;
+    color: white;
+}
+.count
+{
+    opacity: .8;
+    padding: 30px 0;
+    z-index: -1;
+}
+.small
+{
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+}
+.footer
+{
+background-color: #292825;
+padding: 30px 0px;
+width: 100%;
+}
+.footer a{
+    color: #8c979e;
+}
+
+.footer ul li{
+    font-size: 16px;
+    font-weight:400;
+    line-height:2.4;
+    list-style-type: none;
+}
+.footer h5{
+    font-size: 23px;
+    line-height: 32px;
+    font-weight: 700;
+    color: white;
+}
+.footer a:hover{
+    text-decoration: none;
+    color: #6a4d8a;
+}
+.copyright
+{
+    background-color: #242320;
+    padding: 30px 0;
+    color: white;
+}
+.theme
+{
+    color: #8c9597;
+}
+.theme a{
+    color: #8c9597;
+}
+.marginset
+{
+    margin-left: 20px;
+}
+.backimg
+{
+    background: url('images/front-page-counter.jpg');
+    z-index:-1;
+}

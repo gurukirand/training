@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Illdy</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!--counter script-->
+<script>
+var a = 0;
+    $(window).scroll(function() {
+    
+      var oTop = $('#counter').offset().top - window.innerHeight;
+      if (a == 0 && $(window).scrollTop() > oTop) {
+        $('.counter-value').each(function() {
+          var $this = $(this),
+            countTo = $this.attr('data-count');
+          $({
+            countNum: $this.text()
+          }).animate({
+              countNum: countTo
+            },
+    
+            {
+    
+              duration: 2000,
+              easing: 'swing',
+              step: function() {
+                $this.text(Math.floor(this.countNum));
+              },
+              complete: function() {
+                $this.text(this.countNum);
+                //alert('finished');
+              }
+    
+            });
+        });
+        a = 1;
+      }
+    
+    }); 
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+$(".carousel").swipe({
+
+  swipe: function(event, direction, distance, duration, fingerCount, fingerData) {
+
+    if (direction == 'left') $(this).carousel('next');
+    if (direction == 'right') $(this).carousel('prev');
+
+  },
+  allowPageScroll:"vertical"
+
+});
+</script>
+</script>
+</head>
+
+<body>
+<!--GURUKIRAN header section -->
+    <header>
+        
+        <nav class="navbar navbar-default header">
+            <div class="container-fluid head">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                        aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="home.html" class="navbar-brand">
+                        <img src="https://cdn.colorlib.com/illdy/wp-content/uploads/sites/11/2016/03/cropped-footer-logo-1.png" class="logo" />
+                    </a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right back">
+                        <li>
+                            <a href="#about">About</a>
+                        </li>
+                        <li>
+                            <a href="#port">Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="#testimonial">Testimonial</a>
+                        </li>
+                        <li>
+                            <a href="#services">Services</a>
+                        </li>
+                        <li>
+                            <a href="#blog">Blog</a>
+                        </li>
+                        <li>
+                            <a href="#team">Our team</a>
+                        </li>
+                        <li>
+                            <a href="#contact">Contact us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container hero text-center">
+            <div>
+                <h1>Clean<span class="span-dot">.</span>slick<span class="span-dot">.</span>Pixel Perfect</h1>
+            </div>
+            <p class="hero-section text-center">lldy is a great one-page theme, perfect for developers and designers but also for someone who just wants a new
+                <br> website for his business. Try it now!</p>
+            <div class="hero-buttons">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-6">
+                <a href="https://colorlib.com/wp/themes/illdy/" class="learmore">Learn More</a>
+                </div>
+                <div class="col-xs-12 col-sm-6">
+                <a href="https://colorlib.com/wp/themes/illdy/" class="download">Download</a>
+            </div></div></div></div>
+        </div>
+        </div>
+    </header>
+    <!--maithir About section-->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-xs-12 col-md-12">
+                    <h3 class="about-heading">About</h3>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-xs-12 col-md-12">
+                    <p class="about-text">It is an amazng one-page theme with great features that offers an incredible experience. It is easy to
+                        install, make changes, adapt for your business. A modern design with clean lines and styling for
+                        a wide variety of content, exactly how a business design should be. You can add as many images as
+                        you want to the main header area and turn them into slider.
+                    </p>
+                </div>
+            </div>
+            <div class="row about-space">
+                
+                
+                    <div class="col-xs-12 col-md-4 ">
+                        <div class="col-xs-12 col-sm-12">   
+                        <div class="progress">
+                            <div class="progress-bar bg-info" role="progressbar" style="width: 60%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">60%</div>
+                        </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 abouttop" >
+                                <span style="color:rgb(241, 139, 109);"><i class="fa fa-font"></i>Typography</span>
+                        </div>
+                </div>
+                
+                  
+                <div class="col-xs-12 col-md-4">
+                        <div class="col-xs-12 col-sm-12">   
+                        <div class="progress">
+                            <div class="progress-bar about-color" role="progressbar" style="width: 82%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">82%</div>
+                        </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 abouttop">
+                                <span style="color: rgb(241, 210, 4);"><i class="fa fa-pencil"></i> Design</span>
+                        </div>
+                </div>
+                     
+                <div class="col-xs-12 col-md-4 glyp2">
+                        <div class="col-xs-12 col-sm-12">   
+                        <div class="progress">
+                            <div class="progress-bar about-color1" role="progressbar" style="width: 86%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">86%</div>
+                        </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 abouttop">
+                                <span style="color: #6a4d8a;"><i class="fa fa-code"></i> Design</span>
+                        </div>
+                </div>
+        </div>
+    </section>
+    <!--Maithri project section-->
+    <section class="project" id="port">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12">
+                    <h3 class="project-head">Projects</h3>
+                    <p class="project-info">You'll love our work. Check it out!</p>
+                </div>
+            </div>
+            <div class="row project-img">
+                <div class="col-xs-6 col-sm-3 img-padding">
+                        <abbr title="[Iddly]-Project"> <a href="#">
+                        <img src="images/front-page-project-4.jpg" class="project-img-size">
+                    </a></abbr>
+                </div>
+                <div class="col-xs-6 col-sm-3 img-padding">
+                        <abbr title="[Iddly]-Project"><a href="#">
+                        <img src="images/front-page-project-3.jpg" class="project-img-size">
+                    </a></abbr>
+                </div>
+                <div class="col-xs-6 col-sm-3 img-padding">
+                        <abbr title="[Iddly]-Project"> <a href="#">
+                        <img src="images/front-page-project-2.jpg" class="project-img-size">
+                    </a></abbr>
+                </div>
+                <div class="col-xs-6 col-sm-3 img-padding">
+                        <abbr title="[Iddly]-Project"> <a href="#">
+                        <img src="images/front-page-project-1.jpg" class="project-img-size">
+                    </a></abbr>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!--Maithri testimoanial-->
+    <section class="testimonial" id="testimonial">
+  <div class="container-fluid testimonial-margin text-center">
+        <h3>Testimonials</h3>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+            </ol>
+
+            <div class="carousel-inner">
+                <div class="item active">
+                    <div class="position">
+                        <div class="container text-center">
+                        <img src="images/front-page-testimonial-4.jpg" class="carousel-img">
+                        <p class="carousel-text">"Awesome theme with great design and awesome support. If you don’t know how to code your own WordPress
+                            theme, but you still want a good-looking website for your business, Illdy might be exactly what
+                            you need. It is a slick theme with a lot of of features to choose from."</p>
+                        <h6>Mike Muller</h6>
+                    </div></div>
+                </div>
+
+                <div class="item">
+                    <div class="text-center position">
+                        <div class="container text-center">
+                        <img src="images/front-page-testimonial-3.jpg" class="carousel-img">
+                        <p class="carousel-text">"Awesome theme with great design and awesome support. If you don’t know how to code your own WordPress
+                            theme, but you still want a good-looking website for your business, Illdy might be exactly what
+                            you need. It is a slick theme with a lot of of features to choose from."</p>
+                        <h6>John Doe</h6>
+                        </div>  
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="text-center position">
+                        <img src="https://cdn.colorlib.com/illdy/wp-content/uploads/sites/11/2016/02/Aigars-Silkalns-127x127.jpg" class="carousel-img">
+                        <p class="carousel-text">Awesome theme with great design and awesome&nbsp;support. If you don’t know how to code your own
+                            WordPress theme, but you still want a good-looking website for your business, Illdy might be
+                            exactly what you need. It is a slick theme with a lot of of features to choose from. You can
+                            customize whatever section you want and you can rest assure that no matter what device your website
+                            is viewed on – it looks great.</p>
+                        <h6>Aigars Silkalns</h6>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="text-center position">
+                        <img src="https://cdn.colorlib.com/illdy/wp-content/uploads/sites/11/2016/02/redhead-1123645_960_720-1-127x127.jpg" class="carousel-img">
+                        <p class="carousel-text">Awesome theme with great design and awesome&nbsp;support. If you don’t know how to code your own
+                            WordPress theme, but you still want a good-looking website for your business, Illdy might be
+                            exactly what you need. It is a slick theme with a lot of of features to choose from. You can
+                            customize whatever section you want and you can rest assure that no matter what device your website
+                            is viewed on – it looks great.</p>
+                        <h6>Jane Smith</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+<!-- maithri services -->
+    <section class="services" id="services">
+        <div class="service-head">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-xs-12 col-md-12 main-head">
+                        <h3>Services</h3>
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="col-xs-12 col-md-12 sub-head">
+                        <p>In order to help you grow your business, our carefully selected experts can advise you in in the
+                            following areas:</p>
+                    </div>
+                </div>
+                <div class="row text-center space">
+                    <div class="col-xm-12 col-md-4">
+                        <div class="sevice-icon text-center">
+                            <i class="fa fa-pencil icon-pencil"></i>
+                        </div>
+                        <div>
+                            <h5 class="description">Web Design</h5>
+                        </div>
+                        <div class="icon-info">
+                            <p>Consectetur adipiscing elit. Praesent molestie urna hendrerit erat tincidunt tempus. Aliquam
+                                a leo risus. Fusce a metus non augue dapibus porttitor at in mauris. Pellentesque commodo...</p>
+                        </div>
+                    </div>
+                    <div class="col-xm-12 col-md-4">
+                        <div class="sevice-icon text-center">
+                            <i class="fa fa-code icon-code"></i>
+                        </div>
+                        <div>
+                            <h5 class="description1">WEB DEVELOPMENT</h5>
+                        </div>
+                        <div class="icon-info">
+                            <p>Consectetur adipiscing elit. Praesent molestie urna hendrerit erat tincidunt tempus. Aliquam
+                                a leo risus. Fusce a metus non augue dapibus porttitor at in mauris. Pellentesque commodo...</p>
+                        </div>
+                    </div>
+                    <div class="col-xm-12 col-md-4">
+                        <div class="sevice-icon text-center">
+                            <i class="fa fa-search icon-search"></i>
+                        </div>
+                        <div>
+                            <h5 class="description2">SEO Analysis</h5>
+                        </div>
+                        <div class="icon-info">
+                            <p>Consectetur adipiscing elit. Praesent molestie urna hendrerit erat tincidunt tempus. Aliquam
+                                a leo risus. Fusce a metus non augue dapibus porttitor at in mauris. Pellentesque commodo...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--GURUKIRAN latest news-->
+    <section class="latestnews" id="blog">
+        <div class="newstop text-center">
+            <h3>Latest News</h3>
+            <p>If you are interested in the latest articles in the industry, take a sneak peek at our blog. You have nothing
+                to loose!</p>
+            <a href="blog.html" class="seeblog">
+                <i class="fa fa-chevron-circle-right" style="color: white;font-size: 16px;"></i> see blog</a>
+        </div>
+        <div class="container blogsec ">
+            <div class="row blogblock">
+                <div class="col-xs-12 col-sm-6 col-md-4 ">
+                    <div class="blogpost">
+                        <img src="https://cdn.colorlib.com/illdy/wp-content/uploads/sites/11/2016/02/photo-1449168013943-3a15804bb41c-360x213.jpg"
+                            width="100%">
+                        <a href="comment.html" class="bloglink">
+                            <h5>We have made a idlly theme SEO friends</h5>
+                        </a>
+                        <p>Illdy One Page WordPress theme is fully SEO friendly and is ready to help you to achieve the highest
+                            rankings…
+                        </p>
+                        <a href="comment.html" class="readmore">
+                            <i class="fa fa-chevron-circle-right fa" style="color: yellow"></i> Read More</a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="blogpost">
+                        <img src="https://cdn.colorlib.com/illdy/wp-content/uploads/sites/11/2016/02/photo-1450101215322-bf5cd27642fc-360x213.jpg"
+                            width="100%">
+                        <a href="blog2.html" class="bloglink">
+                            <h5>Stunning One Page WordPress Theme For Masses </h5>
+                        </a>
+                        <p>This theme is not just free, it is free for private and commercial use since it is licensed under
+                            GPL…
+                        </p>
+                        <a href="blog2.html" class="readmore">
+                            <i class="fa fa-chevron-circle-right" style="color: yellow"></i> Read More</a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="blogpost">
+                        <img src="https://cdn.colorlib.com/illdy/wp-content/uploads/sites/11/2016/02/photo-1447687643809-e05fd462f350-360x213.jpg"
+                            width="100%">
+                        <a href="blog3.html" class="bloglink">
+                            <h5>Hello world!</h5>
+                        </a>
+                        <p>Illdy One Page WordPress theme is fully SEO friendly and is ready to help you to achieve the highest
+                            rankings…
+                        </p>
+                        <a href="blog3.html" class="readmore">
+                            <i class="fa fa-chevron-circle-right " style="color: yellow"></i> Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--GURUKIRAN count up-->
+    <section class="count backimg">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-xs-12 col-sm-4 countwhole">
+                        <div class="counter-value number" data-count="260">0</div>
+                    <div class="small">PROJECTS</div>
+                </div>
+                <div class="col-xs-12 col-sm-4 countwhole">
+                        <div class="counter-value number" data-count="120">0</div>
+                    <div class="small">CLIENTS</div>
+                </div>
+                <div class="col-xs-12 col-sm-4 countwhole">
+                        <div class="counter-value number" data-count="260">0</div>
+                    <div class="small">COFFES</div>
+                </div>
+            </div>
+            <div id="counter"></div>
+        </div>
+    </section>
+    <!-- maithri team -->
+    <section class="team" id="team">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-xm-12 col-md-12 team-head">
+                    <h3>Team</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xm-12 col-md-12 sub-head">
+                    Meet the people that are going to take your business to the next level.
+                </div>
+            </div>
+            <div class="row team-row">
+                <div class="col-xs-12 col-sm-4">
+                    <div class="media">
+                        <div class="media-left">
+                            <abbr title="Mark Lawrance"><img class="media-object media-img" src="images/front-page-team-1.jpg"></abbr>
+                        </div>
+                        <div class="media-body text-left">
+                            <h6 class="media-heading media-top">Mark Lawrance</h6>
+                            <p class="media-p">Web Designer</p>
+                            <p class="p">Creative, detail-oriented, always focused.</p>
+                            <div class="teamlogo text-left">
+                                <ul>
+                                    <li class="team-color">
+                                        <a href="https://colorlib.com/illdy/#">
+                                            <i class="fa fa-facebook team-color"></i>
+                                        </a>
+                                    </li>
+                                    <li class="team-color">
+                                        <a href="https://colorlib.com/illdy/#">
+                                            <i class="fa fa-twitter team-color"></i>
+                                        </a>
+                                    </li>
+                                    <li class="team-color">
+                                        <a href="https://colorlib.com/illdy/#">
+                                            <i class="fa fa-linkedin team-color"></i>
+                                        </a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <div class="media">
+                        <div class="media-left">
+                          <abbr title="Jane Stenton">  <img class="media-object media-img" src="images/front-page-team-2.jpg"></abbr>
+                        </div>
+                        <div class="media-body text-left">
+                            <h6 class="media-heading media-top">Jane Stenton</h6>
+                            <p class="media-p1">SEO Specialist</p>
+                            <p class="p">Curious, tech-geeck and gets serious when it comes to work.</p>
+                            <div class="teamlogo text-left">
+                                <ul>
+                                    <li class="team-color1">
+                                        <a href="https://colorlib.com/illdy/#">
+                                            <i class="fa fa-facebook team-color1"></i>
+                                        </a>
+                                    </li>
+                                    <li class="team-color1">
+                                        <a href="https://colorlib.com/illdy/#">
+                                            <i class="fa fa-twitter team-color1"></i>
+                                        </a>
+                                    </li>
+                                    <li class="team-color1">
+                                        <a href="https://colorlib.com/illdy/#">
+                                            <i class="fa fa-linkedin team-color1"></i>
+                                        </a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <div class="media">
+                        <div class="media-left">
+                                <abbr title="John Smith"></abbr><img class="media-object media-img" src="images/front-page-team-3.jpg"></abbr>
+                        </div>
+                        <div class="media-body text-left">
+                            <h6 class="media-heading media-top">John Smith</h6>
+                            <p class="media-p2">Developer</p>
+                            <p class="p">Enthusiastic, passionate with great sense of humor.</p>
+                            <div class="teamlogo text-left">
+                                <ul>
+                                    <li class="team-color2">
+                                        <a href="https://colorlib.com/illdy/#">
+                                            <i class="fa fa-facebook team-color2"></i>
+                                        </a>
+                                    </li>
+                                    <li class="team-color2">
+                                        <a href="https://colorlib.com/illdy/#">
+                                            <i class="fa fa-twitter team-color2"></i>
+                                        </a>
+                                    </li>
+                                    <li class="team-color2">
+                                        <a href="https://colorlib.com/illdy/#">
+                                            <i class="fa fa-linkedin team-color2"></i>
+                                        </a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!--Maithri contact us-->
+    <section class="contact-us" id="contact">
+        <div class="container text-left">
+            <div class="row">
+                <div class="col-xs-12 col-md-12 contact-head">
+                    <h3 class="text-center">Contact Us</h3>
+                </div>
+            </div>
+            <div class="row contact-row">
+                <div class="col-xs-12 col-sm-4 stage">
+                    <div class="col-xs-6 col-sm-4 address1">
+                        Address
+                    </div>
+                    <div class="col-xs-6 col-sm-8">
+                        <span class="add-info">Street 221B Baker Street, </span>
+                        <span class="add-info">London, UK</span>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4 stage">
+                    <div class="col-xs-6 col-sm-4 address">
+                        Customer Support
+                    </div>
+                    <div class="col-xs-6 col-sm-8">
+                        <span class="add-info">E-mail:
+                           contact@site.com
+                        </span>
+                        <span class="add-info">Phone: (555) 555-5555</span>
+                    </div>
+                </div>
+                <div class="col-xm-12 col-sm-4 stage ">
+                    <div>
+                            <a href="#">
+                                    <i class="fa fa-linkedin loogo"></i>
+                                </a>
+                        <a href="#">
+                            <i class="fa fa-facebook loogo"></i>
+                        </a>
+                        <a href="#">
+                                <i class="fa fa-twitter loogo"></i>
+                            </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--GURUKIRAN footer-->
+    <footer class="footer">
+        <div class="container marginset">
+            <div class="row">
+                <div class="col-xs-12 col-sm-3">
+                    <ul>
+                        <li>
+                            <h5>PRODUCTS</h5>
+                        </li>
+                        <li>
+                            <a href="#">&#62 Our work</a>
+                        </li>
+                        <li>
+                            <a href="#">&#62 Club</a>
+                        </li>
+                        <li>
+                            <a href="#">&#62 News</a>
+                        </li>
+                        <li>
+                            <a href="#">&#62 Announcement</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-sm-3">
+                    <ul>
+                        <li>
+                            <h5>INFORMATION</h5>
+                        </li>
+                        <li>
+                            <a href="#">&#62 Pricing</a>
+                        </li>
+                        <li>
+                            <a href="#">&#62 Terms</a>
+                        </li>
+                        <li>
+                            <a href="#">&#62 Affliates</a>
+                        </li>
+                        <li>
+                            <a href="#">&#62 Blog</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-sm-3">
+                    <ul>
+                        <li>
+                            <h5>PRODUCTS</h5>
+                        </li>
+                        <li>
+                            <a href="#">&#62 Documentation</a>
+                        </li>
+                        <li>
+                            <a href="#">&#62 FAQs</a>
+                        </li>
+                        <li>
+                            <a href="#">&#62 Forums</a>
+                        </li>
+                        <li>
+                            <a href="#">&#62 Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="copyright text-center">
+        <span class="theme">Theme:
+            <a href="tps://colorlib.com/wp/themes/illdy/">Illdy.</a>
+        </span>© Copyright 2017. All Rights Reserved.</div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
