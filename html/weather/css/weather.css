@@ -1,0 +1,143 @@
+body
+{
+    background:#3A3F75;
+}
+.main-section
+{
+margin-top: 25px;
+margin-bottom: 25px;
+}
+.hero
+{
+    background-image: url(../images/1.jpeg);
+    height: 400px;
+   background-size: cover;
+}
+.current-info
+{
+    background: blue;
+    padding-bottom: 7px;
+    height: 400px;
+}
+.morning
+{
+    color: blue;
+    font-size: 25px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.place
+{
+    color:blue;
+    font-size: 35px;
+    padding-left: 20px;
+}
+#current-day
+{
+    color: white;
+}
+
+#weather-type
+{
+    height: 170px;
+}
+#weather-type img
+{
+   background: blue;
+}
+.temparature
+{
+    height: 100px;
+    padding-top: 50px;
+ 
+}
+#heighest
+{
+    color: white;
+    font-size: 20px;
+    text-align: right;
+}
+#lowest
+{
+    color: white;
+    font-size: 20px;
+    text-align: left;
+}
+.bottom
+{
+    position: relative;
+    background: white;
+    color: blue;
+    font-size: 17px;
+}
+.bottom-text
+{
+    padding-top: 10px;
+    overflow: hidden;
+}
+.second-img
+{
+    position: absolute;
+    left: -50px;
+}
+.temp
+{
+    top: 250px;
+    z-index: 2;
+}
+.clip
+{
+    background-image: url('../images/weather-icons_20180813_090711714.jpg');
+    
+    position: absolute;
+}
+
+#first
+{
+    height: 180px;
+    width: 180px;
+}
+#second
+{
+    height: 180px;
+    width: 180px;
+    
+}
+#third
+{
+    height: 180px;
+    width: 180px;
+}
+#four
+{
+    height: 180px;
+    width: 180px;
+}
+#five
+{
+    height: 180px;
+    width: 180px;
+}
+#six
+{
+    height: 180px;
+    width: 180px;
+}
+#seven
+{
+    height: 180px;
+    width: 180px;
+}
+
+.cities
+{
+    font-size: 16px;
+    font-weight: 400;
+    color: blue;
+    margin-left: 20px;
+}
+
+@media screen and(max-width:768px)
+{
+
+} 

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>weather report</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/weather.css" />
+    <script src="js/weather.js"></script>
+
+</head>
+<!-- body -->
+<body onload="weatherreport()">
+    <div class="container main-section">
+        <div class="row ">
+            <div class="col-xs-12 col-sm-4 current-info">
+                <h2 id="current-day" class="text-uppercase text-center">
+                </h2>
+                <center>
+                <div id="first">
+
+                </div></center>
+                <center>
+                <div class="temparature">
+                    <span class="col-sm-6" id="heighest"></span>
+                    <span class="col-sm-6" id="lowest"></span>
+                </div></center>
+            </div>
+            <div class="hero col-xs-12 col-sm-8">
+                <div class="morning"></div>
+                <div class="place"></div>
+                <div class="cities">
+                    <select id="selection" onchange="weatherreport()">
+                      <option value="bangalore">BANGALORE</option>
+                      <option value="chennai">CHENNAI</option>
+                      <option value="goa">GOA</option>
+                      <option value="mumbai">MUMBAI</option>
+                      <option value="mangalore">MANGALORE</option>
+                     
+                    </select>
+                  </div>
+        
+            </div>
+        </div>
+        <div class="row bottom text-uppercase text-center">
+            <div class="bottom-text">
+                <div class="col-xs-6 col-sm-4 col-md-2">
+                    <div id="second-day"></div>
+                    <div id="second">
+                        <!-- <img src="images/weather-icons_20180813_090711714.jpg" class="second-img"> -->
+                    </div>
+                   
+                    <div class="temp">
+                    <span class="col-xs-6" id="second-heighest" class="temp"></span>
+                    <span class="col-xs-6" id="second-lowest"></span>
+                </div></div>
+                <div class="col-xs-6 col-sm-4 col-md-2">
+                    <div id="third-day"></div>
+                    <div id="third">
+                        <!-- <img src="images/weather-icons_20180813_090711714.jpg" class="second-img"> -->
+                        </div>                       
+                  
+                    <div class="temp">
+                    <span class="col-xs-6" id="third-heighest"></span>
+                    <span class="col-xs-6" id="third-lowest"></span>
+                </div>
+                </div>
+                <div class="col-xs-6 col-sm-4 col-md-2">
+                    <div id="fourth-day"></div>
+                    <div id="four">
+                
+                        </div>
+                       
+                    <!-- <img src="images/weather-icons_20180813_090711714.jpg" class="second-img"> -->
+                    <div class="temp">
+                    <span class="col-xs-6" id="fourth-heighest"></span>
+                    <span class="col-xs-6" id="fourth-lowest"></span>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-4 col-md-2">
+                    <div id="fifth-day"></div>
+                    <div id="five">
+                
+                        </div>
+                       
+                    <!-- <img src="images/weather-icons_20180813_090711714.jpg" class="second-img"> -->
+                    <div class="temp">
+                    <span class="col-xs-6" id="fifth-heighest"></span>
+                    <span class="col-xs-6" id="fifth-lowest"></span>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-4 col-md-2">
+                    <div id="sixth-day"></div>
+                    <div id="six">
+                
+                        </div>
+                       
+                    <!-- <img src="images/weather-icons_20180813_090711714.jpg" class="second-img"> -->
+                    <div class="temp">
+                    <span class="col-xs-6" id="sixth-heighest"></span>
+                    <span class="col-xs-6" id="sixth-lowest"></span>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-4 col-md-2">
+                    <div id="seventh-day"></div>
+                   <div class="clip"></div>
+                   <div id="seven">
+                
+                    </div>                    
+                    <!-- <img src="images/weather-icons_20180813_090711714.jpg" class="second-img"> -->
+                    <div class="temp">
+                    <span class="col-xs-6" id="seventh-heighest"></span>
+                    <span class="col-xs-6" id="seventh-lowest"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
